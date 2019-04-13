@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Aleo:400,700|Josefin+Sans:400,700');
 body{
-
+	font-family: "JosefinSans", sans-serif;
 }
-
+* {
+	margin: 0;
+	padding: 0;
+}
 /* Typography */
 a,
 input[type="submit"],
@@ -54,4 +58,290 @@ textarea {
 .ba-container{
 	padding-left: 20px;
 	padding-right: 20px;
+	width: 1110px;
+}
+.bhromaon {
+	width: 1770px;
+}
+.bhromaon-bg {
+	background: url("../images/header-pic.png")center center no-repeat;
+	height: 822px;
+	width: 100%;
+}
+.bh-header {
+	text-align: center;
+	padding-top: 265px;
+
+}
+.bh-header-name {
+	text-transform: uppercase;
+	font-size: 48px;
+	font-weight: 700;
+	letter-spacing: 0.1em;
+	color: #ffffff;
+	margin: 0;
+}
+.bh-header-text {
+	font-size: 22px;
+	font-weight: 400;
+	letter-spacing: 0.31em;
+	color: #ffffff;
+	padding-top: 15px;
+}
+.form-search {
+	display: block;
+	text-align: center;
+	margin-top: 55px;
+}
+.form-search #search {
+	display: inline-block;
+	width: 500px;
+	height: 60px;
+	text-align: center;
+}
+.form-search::placeholder {
+	color: #c2c2c2;
+	letter-spacing: 0.31em;
+}
+.form-search #submit {
+	display: inline-block;
+	width: 150px;
+	height: 60px;
+	background:  #5474fd;
+	border: 2px solid #ffffff;
+	color: #ffffff;
+	font-family: "Aleo", sans-serif;
+	font-size: 14px;
+	letter-spacing: 0.1em;
+	text-align: left;
+	padding-left: 33px;
+	margin-left:-5px;
+}
+.scroll {
+	padding-top: 120px;
+	text-align: center;
+}
+.scroll p {
+	color: #ffffff;
+	font-family: "Aleo", sans-serif;
+	font-size: 14px;
+	letter-spacing: 0.1em;
+}
+.arrow {
+	margin-top: 12px;
+}
+nav {
+
+	margin-top: 90px;
+	height: 80px;
+	width: 1770px;
+	background: #5474fd;
+	text-align: center;
+}
+.menu-block {
+	display: inline-block;
+	width: 1110px;
+	height: 80px;
+	vertical-align: middle;
+}
+.logo {
+	display: inline-block;
+	text-transform: uppercase;
+	font-size: 24px;
+	letter-spacing: 0.1em;
+	color: #ffffff;
+	vertical-align: center;
+	width: 200px;
+
+}
+.menu {
+	display: inline-block;
+	width: 540px;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+.item {
+	display: inline-block;
+	text-decoration: none;
+
+}
+.item a {
+	text-transform: uppercase;
+	color: #ffffff;
+	text-decoration: none;
+}
+.wcu-background {
+	background: url("../images/Rectangle 7.png") center center no-repeat;
+	height: 685px;
+	width: 1770px;
+	background-size: cover;
+}
+.wcu-background h4 {
+	font-family: "Aleo", sans-serif;
+	font-size: 36px;
+	font-weight: 400;
+	letter-spacing: 0.1em;
+	color: #ffffff;
+	margin-top: 200px;
+	margin-bottom: 60px;
+}
+.wcu-background p {
+	font-family: "JosefinSans", sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	letter-spacing: 0.1em;
+	color: #e8e8e8;
+}
+.wcu-background .inset {
+	height: 40px;
+}
+.explore-places {
+	width: 225px;
+	height: 60px;
+	background: #496bfe;
+	display: block;
+	text-align: center;
+	vertical-align: middle;
+	margin-top: 40px;
+	padding-top: 22px;
+
+}
+.explore-places a {
+	color: #ffffff;
+	font-size: 16px;
+	letter-spacing: 0.075em;
+	font-family: "Aleo", sans-serif;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+.wcu-pics {
+	position: relative;
+}
+.wcu-img1 {
+	position: absolute;
+	top: 120px;
+	left: 65px;
+}
+.wcu-img2 {
+	position: absolute;
+	top:345px;
+	left: 190px;
+}
+.buttons-bg {
+	background: #333333;
+	height: 335px;
+	width: 1770px;
+}
+.search, .select, .book {
+	text-align: center;
+	padding-top: 100px;
+
+}
+.search-name, .select-name, .book-name {
+	font-family: "Aleo", sans-serif;
+	font-size: 36px;
+	letter-spacing: 0em;
+	color: #ffffff;
+	padding-top: 30px;
+}
+.spain1-bg {
+	background: url("../images/spain1.png")center center no-repeat;
+	height: 700px;
+	width: 1770px;
+}
+.spain-info {
+	width: 540px;
+	height: 375px;
+	background: rgba(45, 40, 40, 0.7);
+	position: relative;
+	margin-top: 230px;
+}
+.spain-info h6 {
+	font-family: "JosefinSans", sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+	letter-spacing: 0.075em;
+	color: #ffffff;
+	padding-top: 50px;
+}
+.spain-info h4 {
+	font-family: "JosefinSans", sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+	letter-spacing: 0em;
+	color: #ffffff;
+	margin-top: 30px;
+	text-transform: uppercase;
+}
+.spain-info p {
+	font-family: "JosefinSans", sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	letter-spacing: 0em;
+	color: #ffffff;
+	margin-top: 30px;
+	line-height: 30px;
+}
+.book-now {
+	height: 60px;
+	width: 225px;
+	background: #496bfe;
+	color: #ffffff;
+	text-transform: uppercase;
+	text-align: center;
+	padding-top: 22px;
+	position: absolute;
+	left: 30px;
+	bottom: 50px;
+
+}
+.spain-info:only-child {
+	padding-left: 30px;
+}
+.spain2-bg {
+	background: url("../images/spain2.png")center center no-repeat;
+	height: 700px;
+	width: 1770px;
+	position: relative;
+}
+.col1 {
+	width: 540px;
+	height: 375px;
+}
+.wots-bg {
+	background: url("../images/wots-pic.png")center center no-repeat;
+	height: 740px;
+	width: 1770px;
+	position: relative;
+}
+.wots-bg h3 {
+	font-family: "Aleo", sans-serif;
+	font-size: 36px;
+	color: #ffffff;
+	letter-spacing: 0em;
+	text-align: center;
+	padding-top: 120px;
+}
+.wots-block {
+	display: block;
+	position: absolute;
+	height: 284px;
+	width: ;
+	top: 250px;
+	left: 335px;
+}
+.tourist-pic {
+	position: absolute;
+	top: 250px;
+	left: 335px;
+}
+.tourist-say {
+	position: absolute;
+	background: #333333;
+	height: 284px;
+	width: 665px;
+	top: 250px;
+	left: 777px;
 }
